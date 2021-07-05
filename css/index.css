@@ -415,12 +415,15 @@ background-position: center;
 
 }
 .nine{
-    background-image: url(k1.jpg.jpeg);
-    width: 220vh;
-    height: 40vh;
+    background-image: url(g1.jpg.jpg);
+   
+    height: 50vh;
     
     background-size: auto;
     
+}
+.sidebar2{
+    background-color:rgba(255, 255, 0, 0.678);
 }
 
 #navbar-form .search_btn:hover{
