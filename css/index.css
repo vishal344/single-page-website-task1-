@@ -1,110 +1,94 @@
 
-.carousel-item {
-	height: 100vh;
-	min-height: 300px;
-}
-.carousel-caption {
-	bottom: 420px;
-}
-.carousel-caption h5 {
-	font-size: 45px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 25px;
-	font-family: merienda;
-}
-.carousel-caption p  {
-	width: 30%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-	font-family: poppins;
-    max-height: 23rem;
+.container1{
+    margin-right: 200px;
+ }
+ .img{
     
-    
-}
-.carousel-caption button{
-    border-radius: 4px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: all 200ms linear;
-    padding: 1rem 0.9vw;
-    /* padding: 1rem 1rem; */
-    letter-spacing: 1px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    text-align: center;
-    border: none;
-    background-color: #12f8ad;
-    color: black;
-    box-shadow: 0 8px 24px 0 rgba(18, 248, 173,.2);
-}
-.carousel-caption a {
-	text-transform: uppercase;
-	background: #262626;
-	padding: 10px 30px;
-	display: inline-block;
-	color: #fff;
-	margin-top: 15px;
-}
-.navbar-nav a {
-	font-family: poppins;
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.navbar-light .navbar-brand {
-	color: #fff;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color: #fff;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: #fff;
-}
-.navbar-nav {
-	text-align: center;
-}
-.nav-link {
-	padding: .2rem 1rem;
-}
-.nav-link.active, .nav-link:focus {
-	color: #fff;
-}
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #fff;
-}
-.w-100 {
-	height: 100vh;
-}
-@media only screen and (max-width: 767px) {
-	.navbar-nav.ml-auto {
-		background: rgba(36, 33, 33, 0.5);
-        
-	}
-	.navbar-nav a {
-		font-size: 14px;
-		font-weight: normal;
-	}
-    .carousel-caption button{
-        margin: 1% !important;
-        padding: 1.2rem;
-        width: 50%;
-    }
-}
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+ .a{
+     font-size: 30px;
+ }
+ .b:hover{
+     background-color:yellow;
+     color: black;
+ }
+ .c{
+     border: none;
+ }
+ .d:hover{
+     background-color: rgb(255,210,77);
+ }
+ .e:hover{
+     background-color: royalblue;
+ }
+ .f{
+     border: none;
+     
+ }
+ .m{
+     margin-left:111px;
+ }
+ 
+ .v{
+   
+   margin: auto;
+ }
+ .h{
+     background-color: rebeccapurple;
+ }
+ .j{
+     /* border: 2px solid red; */
+     width: 200px;
+     height: 200px;
+ border-radius: 50%;
+ }
+ 
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 200px;
+     height: 200px;
+ border-radius: 50%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: #e9e9eb;
+   }
+   
+   .n:hover .overlay {
+       cursor: pointer;
+     opacity: 0.5;
+   }
+   
+   .text {
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+   .text i{
+       font-size: 30px;
+   }
+ 
+   .t{
+     position: absolute;
+ margin-left: 40%;
+ margin-top: 25px;
+   }
+ 
+ 
 
 /*second section start*/
 
@@ -419,7 +403,7 @@ background-position: center;
    
     height: 50vh;
     
-    background-size: auto;
+   /* background-size: auto;*/
     
 }
 .sidebar2{
@@ -439,11 +423,11 @@ background-position: center;
         
     }
     #navbar-form .input{
-        width: 60vw;
+        width: 30vw;
         
     }
     #navbar-form .search_btn{
-        padding: 1rem;
+        padding: 1px;
         margin-left: 10px !important;
     }
 }
